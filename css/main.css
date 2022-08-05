@@ -1,0 +1,24 @@
+* {
+  font-family: "Kanit", sans-serif;
+  font-family: "Russo One", sans-serif;
+}
+
+body {
+  background-color: #f5f8fd;
+}
+
+.about__block-shadow {
+  width: 80vw;
+  margin-top: 300px;
+  display: flex;
+}
+
+.block__shadow-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content__element-text {
+  margin-left: 25px;
+}
