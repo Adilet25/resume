@@ -67,49 +67,53 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <!-- <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#about"
+                    style="color: #f5f8fd"
+                    >About us</a
+                  >
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #f5f8fd" id="about">About Me</a>
+                </li>
                 <li class="nav-item">
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="#"
+                    href="#skill"
                     style="color: #f5f8fd"
-                    >Home</a
+                    >My Skills</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: #f5f8fd">Link</a>
-                </li>
-                <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#edu"
                     style="color: #f5f8fd"
+                    >My Education</a
                   >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu" style="background-color: #282f38">
-                    <li>
-                      <a class="dropdown-item" href="#" style="color: #f5f8fd"
-                        >Action</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#" style="color: #f5f8fd"
-                        >Another action</a
-                      >
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#" style="color: #f5f8fd"
-                        >Something else here</a
-                      >
-                    </li>
-                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#exp"
+                    style="color: #f5f8fd"
+                    >My Experience</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#carouselExampleDark"
+                    style="color: #f5f8fd"
+                    >joke minute</a
+                  >
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -138,8 +142,15 @@
 
     <!-- content start -->
     <!-- About me start -->
-    <div class="container about__block-shadow">
-      <div class="block__shadow-content shadow p-3 mb-5 bg-body rounded">
+    <div
+      class="container about__block-shadow"
+      style="margin-top: 100px"
+      width="80vw"
+      id="about"
+    >
+      <div
+        class="block__shadow-content shadow p-3 mb-5 bg-body rounded d-flex flex-row"
+      >
         <img
           id="shadow__content-img"
           src="./img/photo1659708751.jpeg"
@@ -147,6 +158,7 @@
           width="400vw"
         />
         <div class="shadow__content-element">
+          <!-- about card start -->
           <h2 class="content__element-text">Ван Даркхолм</h2>
           <h4 class="content__element-text">
             Front-End Developer & Master of Dancing
@@ -172,12 +184,185 @@
             вниз, а другой ловит. Первого, второго ловит, а третьего не ловит,
             друг в шоке: - Почему не ловишь!? - А нафига ты сгоревших кидаешь?
           </p> -->
+          <!-- About card end -->
           <a href="#"></a>
         </div>
       </div>
     </div>
     <!-- Abot me end -->
+
+    <!-- Skills start -->
+    <div class="block__skill mt-5" id="skill">
+      <h3 class="skill_text">Skills</h3>
+      <!-- first block start -->
+      <div class="skills_progress-block shadow mt-5 p-3 mb-5 bg-body rounded " >
+        <h4 class="progress__block-text">Professional</h4>
+        <div class="dashboard">
+          <div class="dashboard__bar">
+            <div class="bar__text">
+              <h5>HTML</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia.
+              </p>
+            </div>
+            <svg class="block__text-in">
+              <circle class="bg" cx="57" cy="57" r="52" />
+              <circle class="meter-1" cx="57" cy="57" r="52" />
+            </svg>
+          </div>
+          <div class="dashboard__bar">
+            <div class="bar__text">
+              <h5>Python</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi.
+              </p>
+            </div>
+            <svg>
+              <circle class="bg" cx="57" cy="57" r="52" />
+              <circle class="meter-2" cx="57" cy="57" r="52" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- first block end -->
+
+      <!-- second block start -->
+      <div class="skills_progress-block shadow p-3 mb-5 bg-body rounded">
+        <h4 class="progress__block-text">Personal</h4>
+        <div class="dashboard">
+          <div class="dashboard__bar">
+            <div class="bar__text">
+              <h5>Communication</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia.
+              </p>
+            </div>
+            <svg class="block__text-in">
+              <circle class="bg" cx="57" cy="57" r="52" />
+              <circle class="meter-3" cx="57" cy="57" r="52" />
+            </svg>
+          </div>
+          <div class="dashboard__bar">
+            <div class="bar__text">
+              <h5>Teamwork</h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi.
+              </p>
+            </div>
+            <svg>
+              <circle class="bg" cx="57" cy="57" r="52" />
+              <circle class="meter-4" cx="57" cy="57" r="52" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second block end -->
+
+    <!-- Skills end -->
+    <!-- Education start -->
+    <div class="container edu" id="edu">
+      <h4>Education</h4>
+      <ul class="timeline-holder">
+        <li class="timeline-event">
+          <span class="timeline-circle"></span>
+          <div class="timeline-event-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+            aliquam inventore laboriosam officia. Corporis nihil aliquam
+            architecto unde magnam molestiae labore quis incidunt asperiores.
+          </div>
+          <div class="timeline-event-date">School</div>
+        </li>
+        <li class="timeline-event">
+          <span class="timeline-circle"></span>
+          <div class="timeline-event-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+            aliquam inventore laboriosam officia. Corporis nihil aliquam
+            architecto unde magnam molestiae labore quis incidunt asperiores.
+          </div>
+          <div class="timeline-event-date">College</div>
+        </li>
+      </ul>
+    </div>
+    <!-- Education end -->
+
+    <!-- Experience start -->
+    <div class="container exp mt-5  " id="exp">
+      <h4>Experience</h4>
+      <ul class="timeline-holder mb-5">
+        <li class="timeline-event">
+          <span class="timeline-circle"></span>
+          <div class="timeline-event-content">
+            <br><b>Front-End</b></br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+            aliquam inventore laboriosam officia. Corporis nihil aliquam
+            architecto unde magnam molestiae labore quis incidunt asperiores.
+          </div>
+          <div class="timeline-event-date">2020</div>
+        </li>
+        <li class="timeline-event">
+          <span class="timeline-circle"></span>
+          <div class="timeline-event-content">
+            <br><b>Python</b></br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+            aliquam inventore laboriosam officia. Corporis nihil aliquam
+            architecto unde magnam molestiae labore quis incidunt asperiores.
+          </div>
+          <div class="timeline-event-date">2021</div>
+        </li>
+
+        <li class="timeline-event">
+          <span class="timeline-circle"></span>
+          <div class="timeline-event-content">
+            <br><b>Front-End</b></br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
+            aliquam inventore laboriosam officia. Corporis nihil aliquam
+            architecto unde magnam molestiae labore quis incidunt asperiores.
+          </div>
+          <div class="timeline-event-date">2022</div>
+        </li>
+      </ul>
+    </div>
+    <!-- experience end -->
+
     <!-- content end -->
+
+    <!--features start  -->
+    <div id="carouselExampleDark" class="features__start mt-5 container carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./img/97e0faad-51e5-4f26-b54e-705dd42e84b1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/be3a4563-3e9e-40c6-9a29-5ff77102d9ec.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/a1077f8d-ad22-4450-949c-2f5df0a47ed4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- features end -->
+
+    <!-- Hobby start -->
+
+    <!-- Hobby end  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
